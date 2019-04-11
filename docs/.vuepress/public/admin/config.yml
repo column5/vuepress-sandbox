@@ -1,6 +1,6 @@
 backend:
-  name: bitbucket
-  repo: columnfive/vuepress-sandbox
+  name: github
+  repo: column5/vuepress-sandbox
   branch: master
 media_folder: "docs/.vuepress/public/images"
 public_folder: "docs/.vuepress/dist"
