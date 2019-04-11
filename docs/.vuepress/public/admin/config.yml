@@ -1,0 +1,15 @@
+backend:
+  name: bitbucket
+  repo: columnfive/vuepress-sandbox
+  branch: master
+media_folder: "docs/.vuepress/public/images"
+public_folder: "docs/.vuepress/dist"
+collections:
+  - name: "doc"
+    label: "Doc"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
